@@ -10,7 +10,7 @@ namespace MVC_Assignment_2_2.Extensions
     {
         public static string ToDigitsOnly(this string str)
         {
-            return Regex.Replace(str, "[^0-9.]", string.Empty);
+            return Regex.Replace(str, "[^0-9]", string.Empty);
         }
     }
 }
